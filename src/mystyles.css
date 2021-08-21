@@ -1,0 +1,530 @@
+.btn-primary:active {
+  background-color: #ff681c !important;
+}
+
+.button {
+  background-color: #5f2450 !important;
+  border: none;
+}
+.btn-primary:focus {
+  outline: hidden;
+  border: none;
+}
+.button:hover {
+  background-color: #ff681c !important;
+  opacity: 1;
+  transform-origin: center;
+  transition-property: inherit;
+  border: none;
+  /* transition: 0.5s; */
+}
+/* .btn-primary{
+    background-color: purple !important;
+    
+    
+  } */
+/* .btn-primary:focus {
+    outline-color: white;
+    outline: "0%";
+    color: #ff681c;
+    background-color: #ff681c !important;
+  }
+  .btn-primary:active {
+    outline-color: white;
+    outline: "0%";
+    color: #ff681c;
+    background-color: #ff681c !important;
+  } */
+
+/* .btn-primary:focus {
+    color: red;
+    background-color: orange !important;
+  }
+  
+  .btn-primary:active {
+    color: white;
+    background-color: green !important;
+  } */
+.linkname {
+  border-radius: 20px;
+  padding: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+  /* font-size: 2.5vmin;
+  transition: font-size 2s; */
+  font-family: cursive;
+  transition: 0.5s;
+}
+.linkname:hover {
+  background-color: #fd864b;
+  /* font-size: 1.4vw; */
+  color: white;
+}
+.modernDate_P.modernDate_P {
+  border-radius: 50 !important;
+  -moz-border-radius: 50;
+  -webkit-border-radius: 50;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 10px 10px 5px;
+  /* border-bottom: 1px solid #ebebeb !important; */
+  /* border: none; */
+  /* box-sizing: border-box; */
+  border-color: lightgrey;
+  height: 39px;
+  /* margin-top: 22px; */
+  /* box-shadow: none; */
+  font-family: Open Sans, sans-serif;
+}
+#HomeBtn {
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(255, 104, 28);
+  color: white;
+  height: 35px;
+  width: 100px;
+  transition: 1s;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.33);
+}
+#HomeBtn:hover {
+  width: 130px;
+  background-color: #5f2450;
+}
+#HomeBtn2 {
+  border-radius: 10px;
+  border: none;
+  background-color: #5f2450;
+  color: white;
+  height: 35px;
+  width: 100px;
+  transition: 1s;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.33);
+}
+#HomeBtn2:hover {
+  width: 130px;
+  background-color: rgb(255, 104, 28);
+}
+#home-animate {
+  animation: home-animate 2s forwards 0s ease-in-out;
+}
+
+#navname {
+  color: white;
+  font-family: cursive;
+}
+
+@keyframes home-animate {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx) translateX(0);
+    opacity: 1;
+  }
+}
+.pic_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .service_row
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+margin-top: 7%;
+} */
+.modal_ {
+  margin: auto;
+}
+
+.card-title {
+  font-family: "ProximaNovaSoftW03-Semibold", sans-serif;
+}
+.card-text {
+  font-family: "ProximaNovaSoftW03-Semibold", sans-serif;
+}
+.navbar {
+  background: #642554;
+  box-shadow: 0 10px 20px -2px rgba(174, 29, 218, 0.2);
+}
+#card_style {
+  animation: card_style 2s forwards 0s ease-in-out;
+}
+@keyframes card_style {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx) translateY(0);
+    opacity: 1;
+  }
+}
+#card_style1 {
+  animation: card_style1 2.5s forwards 0s ease-in-out;
+}
+@keyframes card_style1 {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx) translateY(0);
+    opacity: 1;
+  }
+}
+#card_style2 {
+  animation: card_style2 3s forwards 0s ease-in-out;
+}
+@keyframes card_style2 {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx) translateY(0);
+    opacity: 1;
+  }
+}
+#about_text {
+  animation: about_text 3s forwards 0s ease-in-out;
+}
+@keyframes about_text {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx) scale(1);
+    opacity: 1;
+  }
+}
+#about_img {
+  animation: about_img 2.5s forwards 0s ease-in-out;
+}
+@keyframes about_img {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx) translateX(0);
+    opacity: 1;
+  }
+}
+#about_about {
+  animation: about_about 2s forwards 0s ease-in-out;
+}
+@keyframes about_about {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(xx) translateY(0);
+    opacity: 1;
+  }
+}
+
+/* body{
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+} */
+.contact-form {
+  background: #fff;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.contact-form .form-control {
+  border-radius: 7px;
+}
+.contact-image {
+  text-align: center;
+}
+.contact-image img {
+  border-radius: 6rem;
+  width: 26%;
+  margin-top: -3%;
+}
+.contact-form form {
+  padding: 0%;
+}
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+.contact-form h3 {
+  margin-bottom: 1%;
+
+  text-align: center;
+  color: #ff681c;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #4f1e42;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.contact-form .btnContact:hover {
+  background: #ff681c;
+  font-weight: 600;
+  color: #fff;
+}
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
+.mainScroll {
+  overflow: auto;
+  overflow-x: hidden !important;
+  height: 100%;
+  min-height: 40vh;
+  max-height: 90vh;
+}
+
+/********************** Muzamil MultiCheckDropdown    Start*********************/
+.selectBox {
+  position: relative;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  /* position: fixed; */
+  background-color: #fff;
+  width: 98%;
+  /* display: none; */
+  border: 1px #dadada solid;
+}
+
+#checkboxes label {
+  display: inline-block;
+  color: #000;
+}
+
+.checkbox-main:hover {
+  background-color: #38a2ff !important;
+  color: #fff !important;
+
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.3) !important;
+}
+#checkboxes label:hover {
+  color: #fff !important;
+  /* box-shadow: 0 0 11px rgba(0, 0, 0, 0.2) !important ; */
+}
+#checkboxes:hover {
+  top: auto !important;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+#main_div::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  background-color: #f5f5f5;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+#main_div::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+#main_div::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff21;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.charge-multidropdown-position {
+  position: absolute;
+  width: 100%;
+  background-color: #c9edf2;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  /* width: 2.375rem; */
+  margin-left: 88%;
+  margin-top: -7%;
+  /* height: 2.375rem;
+  line-height: 2.375rem; */
+  /* text-align: center; */
+  pointer-events: none;
+  color: rgb(167, 162, 162);
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.new {
+  padding: 50px;
+}
+
+.form-group-checkbox {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-group-checkbox input {
+  padding: 0;
+  height: 10px;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form-group-checkbox label {
+  position: relative;
+  cursor: pointer;
+}
+
+.form-group-checkbox label:before {
+  content: "";
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid #0079bf;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 5px;
+  display: inline-block;
+  border-radius: 2px;
+  height: 0px;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  background-color: white;
+  -o-border-radius: 2px;
+}
+
+.form-group-checkbox input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  width: 6px;
+  height: 8px;
+  border: solid rgb(3 101 140);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+/**********************       MultiCheckDropdown    End*********************/
+.provider-form {
+  padding-left: 0px 0px 0px 0px;
+}
+.provider-form label:hover {
+  background: none;
+}
+
+.provider-form input {
+  width: 98%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #7d8086;
+}
+.provider-form .address {
+  width: 99%;
+  height: 36px;
+  border-radius: 5px;
+  border: 1px solid #8facc2;
+}
+.provider-form h3 {
+  margin: 0 auto;
+  color: #d8526b;
+  background: #c5e7f4;
+  padding: 10px;
+  font-size: 17px;
+  font-family: "Lato";
+  border-bottom: 0px solid #03658c;
+  font-weight: bold;
+  float: left;
+}
+
+.provider-form h2 {
+  /* ADDED BY KHIZER*/
+  margin: 0 auto;
+  color: #d8526b;
+  background: #c5e7f4;
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Lato";
+  border-bottom: 0px solid #03658c;
+  font-weight: bold;
+  float: left;
+}
+
+.provider-form .form-control-user {
+  font-size: 0.8rem;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.provider-form:focus {
+  /* color: #6e707e; */
+  color: rgb(0 0 0) !important;
+  background-color: #fff;
+  border-color: #bac8f3;
+  outline: 0;
+  box-shadow: 0 0 0 0.08rem rgba(242, 121, 144);
+}
+/*provider html css end here*/
+form.user .form-control-user {
+  /* font-size: 0.8rem; */
+  border-radius: 0rem;
+  /* padding: 1.5rem 1rem; */
+}
+.FixedDropdown {
+  position: absolute;
+  transform: none !important;
+  top: unset !important ;
+  left: 0px;
+  will-change: transform;
+}
